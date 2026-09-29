@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD398FFB306B74B200EC82AC /* TandemMobiUICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD398FFA306B748000EC82AC /* TandemMobiUICoordinator.swift */; };
+		FDAB0BA3306B41BF00946269 /* EcJpake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B8D306B41BF00946269 /* EcJpake.swift */; };
+		FDAB0BA4306B41BF00946269 /* CurrentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B96306B41BF00946269 /* CurrentStatus.swift */; };
+		FDAB0BA5306B41BF00946269 /* TandemCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B91306B41BF00946269 /* TandemCrypto.swift */; };
+		FDAB0BA6306B41BF00946269 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B93306B41BF00946269 /* Bytes.swift */; };
+		FDAB0BA7306B41BF00946269 /* TandemPumpSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B9D306B41BF00946269 /* TandemPumpSnapshot.swift */; };
+		FDAB0BA8306B41BF00946269 /* Packetize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B94306B41BF00946269 /* Packetize.swift */; };
+		FDAB0BA9306B41BF00946269 /* TandemMobiPairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B99306B41BF00946269 /* TandemMobiPairingView.swift */; };
+		FDAB0BAA306B41BF00946269 /* JpakeAuthBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B8E306B41BF00946269 /* JpakeAuthBuilder.swift */; };
+		FDAB0BAB306B41BF00946269 /* TandemMobiPumpManagerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B9B306B41BF00946269 /* TandemMobiPumpManagerUI.swift */; };
+		FDAB0BAC306B41BF00946269 /* P256Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B90306B41BF00946269 /* P256Curve.swift */; };
+		FDAB0BAD306B41BF00946269 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B97306B41BF00946269 /* Notifications.swift */; };
+		FDAB0BAE306B41BF00946269 /* TandemMobiPumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B9A306B41BF00946269 /* TandemMobiPumpManager.swift */; };
+		FDAB0BAF306B41BF00946269 /* TandemPairingLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B9C306B41BF00946269 /* TandemPairingLogic.swift */; };
+		FDAB0BB0306B41BF00946269 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B8C306B41BF00946269 /* BigUInt.swift */; };
+		FDAB0BB1306B41BF00946269 /* JpakeRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B8F306B41BF00946269 /* JpakeRandom.swift */; };
+		FDAB0BB2306B41BF00946269 /* TandemBLECore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0BA1306B41BF00946269 /* TandemBLECore.swift */; };
+		FDAB0BB3306B41BF00946269 /* TandemMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0B9F306B41BF00946269 /* TandemMessage.swift */; };
+		FDAB0BB4306B41BF00946269 /* TandemBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0BA0306B41BF00946269 /* TandemBLE.swift */; };
+		FDE7D0B3306B5040003D2A33 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE7D0B2306B5040003D2A33 /* LoopKit.framework */; };
+		FDE7D0B7306B5053003D2A33 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE7D0B6306B5053003D2A33 /* LoopKitUI.framework */; };
+		FDE7D0BA306B50AC003D2A33 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE7D0B9306B50AC003D2A33 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD398FFA306B748000EC82AC /* TandemMobiUICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemMobiUICoordinator.swift; sourceTree = "<group>"; };
+		FDAB0B80306B3CE400946269 /* TandemMobiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TandemMobiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAB0B8C306B41BF00946269 /* BigUInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigUInt.swift; sourceTree = "<group>"; };
+		FDAB0B8D306B41BF00946269 /* EcJpake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcJpake.swift; sourceTree = "<group>"; };
+		FDAB0B8E306B41BF00946269 /* JpakeAuthBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JpakeAuthBuilder.swift; sourceTree = "<group>"; };
+		FDAB0B8F306B41BF00946269 /* JpakeRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JpakeRandom.swift; sourceTree = "<group>"; };
+		FDAB0B90306B41BF00946269 /* P256Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P256Curve.swift; sourceTree = "<group>"; };
+		FDAB0B91306B41BF00946269 /* TandemCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemCrypto.swift; sourceTree = "<group>"; };
+		FDAB0B93306B41BF00946269 /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		FDAB0B94306B41BF00946269 /* Packetize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packetize.swift; sourceTree = "<group>"; };
+		FDAB0B96306B41BF00946269 /* CurrentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentStatus.swift; sourceTree = "<group>"; };
+		FDAB0B97306B41BF00946269 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		FDAB0B99306B41BF00946269 /* TandemMobiPairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemMobiPairingView.swift; sourceTree = "<group>"; };
+		FDAB0B9A306B41BF00946269 /* TandemMobiPumpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemMobiPumpManager.swift; sourceTree = "<group>"; };
+		FDAB0B9B306B41BF00946269 /* TandemMobiPumpManagerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemMobiPumpManagerUI.swift; sourceTree = "<group>"; };
+		FDAB0B9C306B41BF00946269 /* TandemPairingLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemPairingLogic.swift; sourceTree = "<group>"; };
+		FDAB0B9D306B41BF00946269 /* TandemPumpSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemPumpSnapshot.swift; sourceTree = "<group>"; };
+		FDAB0B9F306B41BF00946269 /* TandemMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TandemMessage.swift; path = "/Users/long/Documents/builder/bean-trio/TandemMobiKit/Sources/TandemMobiKit/TandemMessage.swift"; sourceTree = "<absolute>"; };
+		FDAB0BA0306B41BF00946269 /* TandemBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemBLE.swift; sourceTree = "<group>"; };
+		FDAB0BA1306B41BF00946269 /* TandemBLECore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemBLECore.swift; sourceTree = "<group>"; };
+		FDE7D0B2306B5040003D2A33 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE7D0B6306B5053003D2A33 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE7D0B9306B50AC003D2A33 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FDAB0B82306B3CE400946269 /* TandemMobiKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TandemMobiKit;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAB0B7D306B3CE400946269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE7D0BA306B50AC003D2A33 /* HealthKit.framework in Frameworks */,
+				FDE7D0B3306B5040003D2A33 /* LoopKit.framework in Frameworks */,
+				FDE7D0B7306B5053003D2A33 /* LoopKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAB0B76306B3CE400946269 = {
+			isa = PBXGroup;
+			children = (
+				FDAB0B92306B41BF00946269 /* Crypto */,
+				FDAB0B95306B41BF00946269 /* Framing */,
+				FDAB0B98306B41BF00946269 /* Messages */,
+				FDAB0B9E306B41BF00946269 /* PumpManager */,
+				FDAB0B9F306B41BF00946269 /* TandemMessage.swift */,
+				FDAB0BA2306B41BF00946269 /* Transport */,
+				FDAB0B82306B3CE400946269 /* TandemMobiKit */,
+				FDE7D0B1306B503F003D2A33 /* Frameworks */,
+				FDAB0B81306B3CE400946269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAB0B81306B3CE400946269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB0B80306B3CE400946269 /* TandemMobiKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAB0B92306B41BF00946269 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB0B8C306B41BF00946269 /* BigUInt.swift */,
+				FDAB0B8D306B41BF00946269 /* EcJpake.swift */,
+				FDAB0B8E306B41BF00946269 /* JpakeAuthBuilder.swift */,
+				FDAB0B8F306B41BF00946269 /* JpakeRandom.swift */,
+				FDAB0B90306B41BF00946269 /* P256Curve.swift */,
+				FDAB0B91306B41BF00946269 /* TandemCrypto.swift */,
+			);
+			name = Crypto;
+			path = "/Users/long/Documents/builder/bean-trio/TandemMobiKit/Sources/TandemMobiKit/Crypto";
+			sourceTree = "<absolute>";
+		};
+		FDAB0B95306B41BF00946269 /* Framing */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB0B93306B41BF00946269 /* Bytes.swift */,
+				FDAB0B94306B41BF00946269 /* Packetize.swift */,
+			);
+			name = Framing;
+			path = "/Users/long/Documents/builder/bean-trio/TandemMobiKit/Sources/TandemMobiKit/Framing";
+			sourceTree = "<absolute>";
+		};
+		FDAB0B98306B41BF00946269 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB0B96306B41BF00946269 /* CurrentStatus.swift */,
+				FDAB0B97306B41BF00946269 /* Notifications.swift */,
+			);
+			name = Messages;
+			path = "/Users/long/Documents/builder/bean-trio/TandemMobiKit/Sources/TandemMobiKit/Messages";
+			sourceTree = "<absolute>";
+		};
+		FDAB0B9E306B41BF00946269 /* PumpManager */ = {
+			isa = PBXGroup;
+			children = (
+				FD398FFA306B748000EC82AC /* TandemMobiUICoordinator.swift */,
+				FDAB0B99306B41BF00946269 /* TandemMobiPairingView.swift */,
+				FDAB0B9A306B41BF00946269 /* TandemMobiPumpManager.swift */,
+				FDAB0B9B306B41BF00946269 /* TandemMobiPumpManagerUI.swift */,
+				FDAB0B9C306B41BF00946269 /* TandemPairingLogic.swift */,
+				FDAB0B9D306B41BF00946269 /* TandemPumpSnapshot.swift */,
+			);
+			name = PumpManager;
+			path = "/Users/long/Documents/builder/bean-trio/TandemMobiKit/Sources/TandemMobiKit/PumpManager";
+			sourceTree = "<absolute>";
+		};
+		FDAB0BA2306B41BF00946269 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB0BA0306B41BF00946269 /* TandemBLE.swift */,
+				FDAB0BA1306B41BF00946269 /* TandemBLECore.swift */,
+			);
+			name = Transport;
+			path = "/Users/long/Documents/builder/bean-trio/TandemMobiKit/Sources/TandemMobiKit/Transport";
+			sourceTree = "<absolute>";
+		};
+		FDE7D0B1306B503F003D2A33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7D0B9306B50AC003D2A33 /* HealthKit.framework */,
+				FDE7D0B6306B5053003D2A33 /* LoopKitUI.framework */,
+				FDE7D0B2306B5040003D2A33 /* LoopKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FDAB0B7B306B3CE400946269 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FDAB0B7F306B3CE400946269 /* TandemMobiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAB0B89306B3CE500946269 /* Build configuration list for PBXNativeTarget "TandemMobiKit" */;
+			buildPhases = (
+				FDAB0B7B306B3CE400946269 /* Headers */,
+				FDAB0B7C306B3CE400946269 /* Sources */,
+				FDAB0B7D306B3CE400946269 /* Frameworks */,
+				FDAB0B7E306B3CE400946269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FDAB0B82306B3CE400946269 /* TandemMobiKit */,
+			);
+			name = TandemMobiKit;
+			packageProductDependencies = (
+			);
+			productName = TandemMobiKit;
+			productReference = FDAB0B80306B3CE400946269 /* TandemMobiKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAB0B77306B3CE400946269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					FDAB0B7F306B3CE400946269 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = FDAB0B7A306B3CE400946269 /* Build configuration list for PBXProject "TandemMobiKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDAB0B76306B3CE400946269;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FDAB0B81306B3CE400946269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAB0B7F306B3CE400946269 /* TandemMobiKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAB0B7E306B3CE400946269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAB0B7C306B3CE400946269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAB0BA3306B41BF00946269 /* EcJpake.swift in Sources */,
+				FDAB0BA4306B41BF00946269 /* CurrentStatus.swift in Sources */,
+				FDAB0BA5306B41BF00946269 /* TandemCrypto.swift in Sources */,
+				FDAB0BA6306B41BF00946269 /* Bytes.swift in Sources */,
+				FDAB0BA7306B41BF00946269 /* TandemPumpSnapshot.swift in Sources */,
+				FDAB0BA8306B41BF00946269 /* Packetize.swift in Sources */,
+				FD398FFB306B74B200EC82AC /* TandemMobiUICoordinator.swift in Sources */,
+				FDAB0BA9306B41BF00946269 /* TandemMobiPairingView.swift in Sources */,
+				FDAB0BAA306B41BF00946269 /* JpakeAuthBuilder.swift in Sources */,
+				FDAB0BAB306B41BF00946269 /* TandemMobiPumpManagerUI.swift in Sources */,
+				FDAB0BAC306B41BF00946269 /* P256Curve.swift in Sources */,
+				FDAB0BAD306B41BF00946269 /* Notifications.swift in Sources */,
+				FDAB0BAE306B41BF00946269 /* TandemMobiPumpManager.swift in Sources */,
+				FDAB0BAF306B41BF00946269 /* TandemPairingLogic.swift in Sources */,
+				FDAB0BB0306B41BF00946269 /* BigUInt.swift in Sources */,
+				FDAB0BB1306B41BF00946269 /* JpakeRandom.swift in Sources */,
+				FDAB0BB2306B41BF00946269 /* TandemBLECore.swift in Sources */,
+				FDAB0BB3306B41BF00946269 /* TandemMessage.swift in Sources */,
+				FDAB0BB4306B41BF00946269 /* TandemBLE.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDAB0B87306B3CE500946269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A8TFDZBUM7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDAB0B88306B3CE500946269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A8TFDZBUM7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDAB0B8A306B3CE500946269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8TFDZBUM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nightscout.TandemMobiKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDAB0B8B306B3CE500946269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8TFDZBUM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nightscout.TandemMobiKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAB0B7A306B3CE400946269 /* Build configuration list for PBXProject "TandemMobiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAB0B87306B3CE500946269 /* Debug */,
+				FDAB0B88306B3CE500946269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAB0B89306B3CE500946269 /* Build configuration list for PBXNativeTarget "TandemMobiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAB0B8A306B3CE500946269 /* Debug */,
+				FDAB0B8B306B3CE500946269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAB0B77306B3CE400946269 /* Project object */;
+}
